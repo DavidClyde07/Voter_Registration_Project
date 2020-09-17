@@ -138,9 +138,11 @@ public class VoterRegistry {
                 //look up ID number in the registry, if there proceed.
                 if(Registry.containsKey(IDinput)){
                     System.out.println("Verification of "+Registry.get(IDinput)+" successful!");
+                    System.out.println("  ");
                 }
                 else{
                     System.out.println("Verification Failed.\n");
+                    System.out.println("  ");
                 }
             }
         }
